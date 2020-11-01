@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="bookmark" href="images/favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>07李芷彤_Birthstones Jewellery Index Sep to Dec</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage full-screen sliders navigation widh dots." />
+    <meta name="keywords"
+        content="fullpage,scrolloverflow,inside,overflow,scroll,jquery,loop,loopTop,loopBottom,demo,screen,fullscreen,sliders navigation, horizontal navigation,horizontal,navigation,dots" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/examples/examples.css" />
+    <link rel="stylesheet" type="text/css" href="lightslider-master/src/css/lightslider.css" />
+
+    <!-- ---------------- -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="textillate-master/assets/animate.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+
+    <style>
+        .menu {
+            font-family: 'Cormorant Garamond', serif;
+
+        }
+
+
+        .flexContent {
+            display: flex;
+        }
+
+        .flexBox {
+            justify-content: center;
+        }
+
+        .demo {
+            width: 600px;
+            margin: 100px;
+
+        }
+
+        .box {
+            margin:300px 50px 100px 50px;
+
+        }
+
+        .titleBox {
+            text-align: center;
+            margin: 0;
+            color: #AFA7A1;
+            /* background: #e6dcd4; */
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 5px;
+            font-family: 'Noto Serif TC', serif;
+            font-family: 'Cormorant Garamond', serif;
+            padding: 10px 100px;
+        }
+
+        .titleBoxh2{
+            font-weight: 700;
+            color: #4b361a;
+            font-family: 'Cormorant Garamond', serif;
+
+        }
+
+        .textBox {
+            margin: 0 auto;
+            padding-top: 50px;
+            width: 250px;
+            height: 250px;
+            font-family: 'Noto Serif TC', serif;
+            color: #625d5a;
+
+        }
+
+
+        #lightSlider {
+            list-style: none outside none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        li {
+            display: block;
+            float: left;
+            cursor: pointer;
+        }
+
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li {
+            opacity: 0.5;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li.active {
+            opacity: 1;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active,
+        .lSSlideOuter .lSPager.lSGallery li {
+            border-radius: 0;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active:hover,
+        .lSSlideOuter .lSPager.lSGallery li:hover {
+            border-radius: 0;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery img {
+            display: block;
+            max-width: 100%;
+        }
+
+        @media screen and (max-width:900px) {
+
+            .menu {
+            font-family: 'Cormorant Garamond', serif;
+                margin-bottom: 10px;
+        }
+
+            .flexBox {
+                flex-wrap: wrap;
+            }
+
+            .demo {
+                width: 400px;
+                margin: 0;
+            }
+
+            .box {
+                margin: 0;
+            }
+
+            .textBox {
+                margin: 0 auto;
+                padding-top: 10px;
+                width: 250px;
+                height: 250px;
+            }
+
+        }
+    </style>
+
+    <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+
+    <ul class="menu" id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">September</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">October</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">November</a></li>
+        <li data-menuanchor="4thPage"><a href="#4thPage">December</a></li>
+    </ul>
+
+    <div id="fullpage">
+
+        <div class="section fp-auto-height-responsive" id="title1">
+
+            <div class="intro">
+                <div class="titleBox">
+                    <h2 class="titleBoxh2" data-in-effect="fadeInLeft">Birthstones</h2>
+                    <h2 class="titleBoxh2" data-in-effect="fadeInLeft">September - December</h2>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="section" id="section0">
+            <div class="flexBox d-flex">
+                <div class="demo">
+                    <ul id="lightSlider">
+                        <li data-thumb="images/9.Sep-1-re.jpg">
+                            <img src="images/9.Sep-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/9.Sep-2.jpg">
+                            <img src="images/9.Sep-2.jpg" />
+                        </li>
+                        <li data-thumb="images/9.Sep-3.jpg">
+                            <img src="images/9.Sep-3.jpg" />
+                        </li>
+                        <li data-thumb="images/9.Sep-4.jpg">
+                            <img src="images/9.Sep-4.jpg" />
+                        </li>
+                        <li data-thumb="images/9.Sep-5.jpg">
+                            <img src="images/9.Sep-5.jpg" />
+                        </li>
+                        <li data-thumb="images/9.Sep-6.jpg">
+                            <img src="images/9.Sep-6.jpg" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="titleBox">藍寶石 Sapphire</div>
+                    <div class="textBox">
+                        藍寶石，有個很好聽的英文名字 - sapphire ，源於希伯來文 sappir ，意為「臻於完美」；自古以來就有「帝王之石」之稱，幾乎每一代皇室都深受吸引。
+
+                        傳說藍寶石可讓佩戴者免遭人妒忌，並蒙受神靈垂愛。古代國王就在頸間配戴藍寶石，作為護身防禦物。而從古文化時期，藍寶石就被用來裝飾清真寺、教堂，或嵌在宗教用的聖器上。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section1">
+            <div class="flexBox d-flex">
+                <div class="box">
+                    <div class="titleBox">蛋白石 Opal</div>
+                    <div class="textBox">
+                        蛋白石英文名稱 Opal ，源於希臘語 Opallios
+                        ，意思是「顏色的變化」，因蛋白石的顏色光澤獨特而得名，最初被注意可追溯千年前，因為特有的多變美麗遊彩而被象徵人的愛情。其彩虹般絢麗耀目充滿神秘，是其它寶石無可比擬。
+                    </div>
+                </div>
+
+                <div class="demo">
+                    <ul id="lightSlider1">
+                        <li data-thumb="images/10.Oct-1-re.jpg">
+                            <img src="images/10.Oct-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/10.Oct-2.jpg">
+                            <img src="images/10.Oct-2.jpg" />
+                        </li>
+                        <li data-thumb="images/10.Oct-3.jpg">
+                            <img src="images/10.Oct-3.jpg" />
+                        </li>
+                        <li data-thumb="images/10.Oct-4.jpg">
+                            <img src="images/10.Oct-4.jpg" />
+                        </li>
+                        <li data-thumb="images/10.Oct-5.jpg">
+                            <img src="images/10.Oct-5.jpg" />
+                        </li>
+                        <li data-thumb="images/10.Oct-6.jpg">
+                            <img src="images/10.Oct-6.jpg" />
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section " id="section2">
+            <div class="flexBox d-flex">
+                <div class="demo">
+                    <ul id="lightSlider2">
+                        <li data-thumb="images/11.Nov-1-re.jpg">
+                            <img src="images/11.Nov-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/11.Nov-2.jpg">
+                            <img src="images/11.Nov-2.jpg" />
+                        </li>
+                        <li data-thumb="images/11.Nov-3.jpg">
+                            <img src="images/11.Nov-3.jpg" />
+                        </li>
+                        <li data-thumb="images/11.Nov-4.jpg">
+                            <img src="images/11.Nov-4.jpg" />
+                        </li>
+                        <li data-thumb="images/11.Nov-5.jpg">
+                            <img src="images/11.Nov-5.jpg" />
+                        </li>
+                        <li data-thumb="images/11.Nov-6.jpg">
+                            <img src="images/11.Nov-6.jpg" />
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="titleBox">黃水晶 Citrine</div>
+                    <div class="textBox">
+                        黃水晶，英文 Citrine；源自法文的 Citron
+                        及英文Citrus，是「柑橘類果實、淡黃色」之意。寶石級的黃水晶極為稀有，其硬度為7，顏色的形成主要是因為鐵離子，色澤從淺黃、正黃、酒黃到褐黃都有。
+
+
+
+                        顏色鮮明活潑的黃水晶幾乎適合於任何珠寶風格，尤其和華貴的黃金極為合拍。有著類似太陽光的明亮耀眼，遠古時代人們即隨身攜帶黃水晶，用來防毒蛇和邪惡。
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section " id="section3">
+            <div class="flexBox d-flex">
+                <div class="box">
+                    <div class="titleBox">土耳其石 Turquoise</div>
+                    <div class="textBox">
+                        土耳其石又稱綠松石，有趣的是土耳其並不產 土耳其石 ，推測應是古代波斯出產，經土耳其運往歐洲，人們以為產於其地而得名。
+                        依礦石中所含鐵和銅的多寡而呈現出不同的色彩。品質好的土耳其石呈藍綠色和綠藍色，蒼白色到淡藍色則次之。
+                    </div>
+                </div>
+
+                <div class="demo">
+                    <ul id="lightSlider3">
+                        <li data-thumb="images/12.Dec-1-re.jpg">
+                            <img src="images/12.Dec-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/12.Dec-2.jpg">
+                            <img src="images/12.Dec-2.jpg" />
+                        </li>
+                        <li data-thumb="images/12.Dec-3.jpg">
+                            <img src="images/12.Dec-3.jpg" />
+                        </li>
+                        <li data-thumb="images/12.Dec-4.jpg">
+                            <img src="images/12.Dec-4.jpg" />
+                        </li>
+                        <li data-thumb="images/12.Dec-5.jpg">
+                            <img src="images/12.Dec-5.jpg" />
+                        </li>
+                        <li data-thumb="images/12.Dec-6.jpg">
+                            <img src="images/12.Dec-6.jpg" />
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <!-- <div class="demo">
+            <ul id="lightSlider">
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+                </li>
+            </ul>
+        </div> -->
+
+    <div class="col">
+        32435
+    </div>
+    </div>
+
+    <script type="text/javascript" src="fullPage.js-master/vendors/scrolloverflow.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/dist/fullpage.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/examples/examples.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="lightslider-master/src/js/lightslider.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#E6DCD4', '#fff', '#E6DCD4', '#fff', '#E6DCD4'],
+            anchors: ['title1', 'firstPage', 'secondPage', '3rdPage', '4thPage'],
+            menu: '#menu',
+            loopTop: true,
+            loopBottom: true,
+            scrollOverflow: true,
+        });
+
+        $(function () {
+            $('.tlt').textillate();
+        })
+
+        $(".menu").click(function () {
+            $(this).toggleClass("change")
+            $(".tlt").toggleClass("change")
+        })
+
+        $ = jQuery;
+        $(document).ready(function () {
+
+            $h_slider_options = {
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 6,
+                galleryMargin: 10,
+                thumbMargin: 10,
+            };
+
+            $v_slider_options = {
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 6,
+                galleryMargin: 10,
+                thumbMargin: 10,
+                vertical: true
+            };
+
+            h_slider = $('#lightSlider').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider1').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider2').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider3').lightSlider($h_slider_options);
+
+            v_slider = $('#lightSliderVertical').lightSlider($v_slider_options);
+
+            /* Fancybox & lightSlider Sync - Bug Fix */
+            $selector = '#lightSlider li:not(".clone") a';
+            $selector += ',#lightSliderVertical li:not(".clone") a';
+            $().fancybox({
+                selector: $selector,
+                backFocus: false, //The most important options for sync bug fix
+                buttons: [
+                    'slideShow',
+                    'share',
+                    'zoom',
+                    'fullScreen',
+                    'thumbs',
+                    'download',
+                    'close'
+                ]
+            });
+        });
+
+        // #RESIZE BUG FIXING
+        // # if slider have height in % or vh,
+        // # on resize rebuild
+        $(window).resize(function () {
+            slider.destroy();
+            h_slider = $('#ocassions-slider').lightSlider(h_slider_options);
+        });
+
+        $(function () {
+      $('.titleBoxh2').textillate();
+    })
+
+    </script>
+
+</body>
+
+</html>

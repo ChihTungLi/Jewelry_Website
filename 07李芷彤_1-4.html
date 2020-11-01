@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="bookmark" href="images/favicon.ico" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>07李芷彤_Birthstones Jewellery Jan to Apr</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+    <meta name="description" content="fullPage full-screen sliders navigation widh dots." />
+    <meta name="keywords"
+        content="fullpage,scrolloverflow,inside,overflow,scroll,jquery,loop,loopTop,loopBottom,demo,screen,fullscreen,sliders navigation, horizontal navigation,horizontal,navigation,dots" />
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="fullPage.js-master/examples/examples.css" />
+    <link rel="stylesheet" type="text/css" href="lightslider-master/src/css/lightslider.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- ---------------- -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="textillate-master/assets/animate.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+
+    <style>
+        .menu {
+            font-family: 'Cormorant Garamond', serif;
+
+        }
+
+
+        .flexContent {
+            display: flex;
+        }
+
+        .flexBox {
+            justify-content: center;
+        }
+
+        .demo {
+            width: 600px;
+            margin: 100px;
+
+        }
+
+        .box {
+            margin:300px 50px 100px 50px;
+
+        }
+
+        .titleBox {
+            text-align: center;
+            margin: 0;
+            color: #AFA7A1;
+            /* background: #e6dcd4; */
+            font-weight: 700;
+            font-size: 30px;
+            letter-spacing: 5px;
+            font-family: 'Noto Serif TC', serif;
+            font-family: 'Cormorant Garamond', serif;
+            padding: 10px 100px;
+        }
+
+        .titleBoxh2{
+            font-weight: 700;
+            color: #4b361a;
+            font-family: 'Cormorant Garamond', serif;
+
+        }
+
+        .textBox {
+            margin: 0 auto;
+            padding-top:50px ;
+            width: 250px;
+            height: 250px;
+      font-family: 'Noto Serif TC', serif;
+      color: #625d5a;
+
+        }
+
+
+        #lightSlider {
+            list-style: none outside none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        li {
+            display: block;
+            float: left;
+            cursor: pointer;
+        }
+
+        img {
+            display: block;
+            height: auto;
+            width: 100%;
+
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li {
+            opacity: 0.5;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery li.active {
+            opacity: 1;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active,
+        .lSSlideOuter .lSPager.lSGallery li {
+            border-radius: 0;
+        }
+
+        lSSlideOuter .lSPager.lSGallery li.active:hover,
+        .lSSlideOuter .lSPager.lSGallery li:hover {
+            border-radius: 0;
+        }
+
+        .lSSlideOuter .lSPager.lSGallery img {
+            display: block;
+            max-width: 100%;
+        }
+
+
+        @media screen and (max-width:900px) {
+
+            .menu {
+            font-family: 'Cormorant Garamond', serif;
+                margin-bottom: 10px;
+        }
+
+            .flexBox {
+                flex-wrap: wrap;
+            }
+
+            .demo {
+                width: 400px;
+                margin: 0;
+
+            }
+            .box {
+                margin: 0;
+            }
+
+            .textBox {
+            margin: 0 auto;
+            padding-top:10px ;
+            width: 250px;
+            height: 250px;
+        }
+            
+        }
+    </style>
+
+    <!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+</head>
+
+<body>
+
+    <ul class="menu" id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">January</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">February</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">March</a></li>
+        <li data-menuanchor="4thPage"><a href="#4thPage">April</a></li>
+    </ul>
+
+    <div id="fullpage">
+
+        <div class="section fp-auto-height-responsive" id="title1">
+
+            <div class="intro">
+                <div class="titleBox">
+                    <h2 class="titleBoxh2" data-in-effect="fadeInLeft">Birthstones</h2>
+                    <h2 class="titleBoxh2" data-in-effect="fadeInLeft">January - April</h2>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="section" id="section0">
+            <div class="flexBox d-flex">
+                <div class="demo">
+                    <ul id="lightSlider">
+                        <li data-thumb="images/1.Jan-1.jpg">
+                            <img src="images/1.Jan-1.jpg" />
+                        </li>
+                        <li data-thumb="images/1.Jan-2.jpg">
+                            <img src="images/1.Jan-2.jpg" />
+                        </li>
+                        <li data-thumb="images/1.Jan-3.jpg">
+                            <img src="images/1.Jan-3.jpg" />
+                        </li>
+                        <li data-thumb="images/1.Jan-4.jpg">
+                            <img src="images/1.Jan-4.jpg" />
+                        </li>
+                        <li data-thumb="images/1.Jan-5.jpg">
+                            <img src="images/1.Jan-5.jpg" />
+                        </li>
+                        <li data-thumb="images/1.Jan-6.jpg">
+                            <img src="images/1.Jan-6.jpg" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="box">
+                   <div class="titleBox">石榴石 Garnet</div>
+                    <div class="textBox">
+                        一月生日石-石榴石的英文名稱為「Garnet」，由拉丁文「Granatum」演變而來，意思是「像種子一樣」。
+                        概因其晶體與紅石榴籽的形狀、顏色十分相似，故名之。傳説中諾亞方舟上正是使用石榴石來照明;
+                        石榴石常被引喩具忠誠、真實及堅貞之意。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section1">
+            <div class="flexBox d-flex">
+                <div class="box">
+                    <div class="titleBox">紫水晶 Amethyst</div>
+                    <div class="textBox">
+                        二月出生的人據說富有藝術天份與想像力，稱得上是浪漫的生活家。二月生日石紫水晶的民間說法是可䦕智慧，相傳佩帶紫水晶喝酒不會醉，且可帶來運氣；打仗時更能英勇殺敵，凱旋而歸。
+                    </div>
+                </div>
+
+                <div class="demo">
+                    <ul id="lightSlider1">
+                        <li data-thumb="images/2.Feb-1-re.jpg">
+                            <img src="images/2.Feb-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/2.Feb-2.jpg">
+                            <img src="images/2.Feb-2.jpg" />
+                        </li>
+                        <li data-thumb="images/2.Feb-3.jpg">
+                            <img src="images/2.Feb-3.jpg" />
+                        </li>
+                        <li data-thumb="images/2.Feb-4.jpg">
+                            <img src="images/2.Feb-4.jpg" />
+                        </li>
+                        <li data-thumb="images/2.Feb-5.jpg">
+                            <img src="images/2.Feb-5.jpg" />
+                        </li>
+                        <li data-thumb="images/2.Feb-6.jpg">
+                            <img src="images/2.Feb-6.jpg" />
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section " id="section2">
+            <div class="flexBox d-flex">
+                <div class="demo">
+                    <ul id="lightSlider2">
+                        <li data-thumb="images/3.Mar-1-re.jpg">
+                            <img src="images/3.Mar-1-re.jpg" />
+                        </li>
+                        <li data-thumb="images/3.Mar-2.jpg">
+                            <img src="images/3.Mar-2.jpg" />
+                        </li>
+                        <li data-thumb="images/3.Mar-3.png">
+                            <img src="images/3.Mar-3.png" />
+                        </li>
+                        <li data-thumb="images/3.Mar-4.jpeg">
+                            <img src="images/3.Mar-4.jpeg" />
+                        </li>
+                        <li data-thumb="images/3.Mar-5.jpg">
+                            <img src="images/3.Mar-5.jpg" />
+                        </li>
+                        <li data-thumb="images/3.Mar-6.jpg">
+                            <img src="images/3.Mar-6.jpg" />
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="titleBox">海水藍寶 Aquamarine</div>
+                    <div class="textBox">
+                        海水藍寶以它獨特的海水藍顏色而得名。東方或西方都視水為生命之源，三月正是地球上一切動植物開始活躍之時，所以海藍寶石就被定為三月的誕生石，象徵著沉著、勇敢和聰明。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section " id="section3">
+            <div class="flexBox d-flex">
+                <div class="box">
+                    <div class="titleBox">鑽石 Diamond</div>
+                    <div class="textBox">
+                        鑽石英文名源於希臘文，意思是「不可征服」，化學和工業中稱為金剛石。鑽石是碳元素組成的晶體，硬度10，為目前已知自然存在最硬物質；鑽石折射率高，燈光下閃閃生輝，所以幾世紀以來，璀璨的鑽石一直是女性的最愛而被用作定情信物，見證無數的天長地久。
+                    </div>
+                </div>
+
+                <div class="demo">
+                    <ul id="lightSlider3">
+                        <li data-thumb="images/4.Apr-1-re.png">
+                            <img src="images/4.Apr-1-re.png" />
+                        </li>
+                        <li data-thumb="images/4.Apr-2.jpg">
+                            <img src="images/4.Apr-2.jpg" />
+                        </li>
+                        <li data-thumb="images/4.Apr-3.jpg">
+                            <img src="images/4.Apr-3.jpg" />
+                        </li>
+                        <li data-thumb="images/4.Apr-4.jpg">
+                            <img src="images/4.Apr-4.jpg" />
+                        </li>
+                        <li data-thumb="images/4.Apr-5.jpg">
+                            <img src="images/4.Apr-5.jpg" />
+                        </li>
+                        <li data-thumb="images/4.Apr-6.jpg">
+                            <img src="images/4.Apr-6.jpg" />
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    </div>
+
+
+    <!-- <div class="demo">
+            <ul id="lightSlider">
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
+                </li>
+                <li data-thumb="https://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+                    <img src="https://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
+                </li>
+            </ul>
+        </div> -->
+
+    <div class="col">
+        32435
+    </div>
+    </div>
+
+    <script type="text/javascript" src="fullPage.js-master/vendors/scrolloverflow.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/dist/fullpage.js"></script>
+    <script type="text/javascript" src="fullPage.js-master/examples/examples.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="textillate-master/assets/jquery.lettering.js"></script>
+    <script src="textillate-master/jquery.textillate.js"></script>
+    <script src="lightslider-master/src/js/lightslider.js"></script>
+ 
+
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#E6DCD4', '#fff', '#E6DCD4', '#fff', '#E6DCD4'],
+            anchors: ['title1', 'firstPage', 'secondPage', '3rdPage', '4thPage'],
+            menu: '#menu',
+            loopTop: true,
+            loopBottom: true,
+            scrollOverflow: true,
+        });
+
+        $(function () {
+            $('.tlt').textillate();
+        })
+
+        $(".menu").click(function () {
+            $(this).toggleClass("change")
+            $(".tlt").toggleClass("change")
+        })
+
+        $ = jQuery;
+        $(document).ready(function () {
+
+            $h_slider_options = {
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 6,
+                galleryMargin: 10,
+                thumbMargin: 10,
+            };
+
+            $v_slider_options = {
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                thumbItem: 6,
+                galleryMargin: 10,
+                thumbMargin: 10,
+                vertical: true
+            };
+
+            h_slider = $('#lightSlider').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider1').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider2').lightSlider($h_slider_options);
+            h_slider = $('#lightSlider3').lightSlider($h_slider_options);
+
+            v_slider = $('#lightSliderVertical').lightSlider($v_slider_options);
+
+            /* Fancybox & lightSlider Sync - Bug Fix */
+            $selector = '#lightSlider li:not(".clone") a';
+            $selector += ',#lightSliderVertical li:not(".clone") a';
+            $().fancybox({
+                selector: $selector,
+                backFocus: false, //The most important options for sync bug fix
+                buttons: [
+                    'slideShow',
+                    'share',
+                    'zoom',
+                    'fullScreen',
+                    'thumbs',
+                    'download',
+                    'close'
+                ]
+            });
+        });
+
+        // #RESIZE BUG FIXING
+        // # if slider have height in % or vh,
+        // # on resize rebuild
+        $(window).resize(function () {
+            slider.destroy();
+            h_slider = $('#ocassions-slider').lightSlider(h_slider_options);
+        });
+
+        $(function () {
+      $('.titleBoxh2').textillate();
+    })
+
+    </script>
+    
+
+</body>
+
+</html>
